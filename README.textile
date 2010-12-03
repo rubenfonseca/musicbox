@@ -1,0 +1,32 @@
+h1. MusicBox
+
+this project is a fun experiment to pragmatically use SAPO's MusicBox service as an API.
+
+*it is utterly incomplete*, and only serves as a proof of concept
+
+h2. Requirements
+
+If you want to run the PoC, you'll need:
+
+- ruby
+- bundler (gem install bundler)
+
+- thrift (optional, if you want to generate other language bindings)
+
+h2. howto
+
+there is a file @client.rb@ on this project that will play a track I like on the CLI
+
+mplayer (@brew install mplayer@, you are using homebrew on OS X, right?) is required if you want to directly hear the track on the console. otherwise, you must copy the provided URL to a player like VLC or similar.
+
+<pre><code>
+bundle (first time only, installs dependencies)
+ruby client.rb your_musicbox_username your_musicbox_password
+</code></pre>
+
+h2. further work
+
+I'm happy enough with the progress :) but feel free to enhance the thrift api description :D
+
+I'm not going to explore this a lot more, because I've got a feeling that an official API is near...
+
