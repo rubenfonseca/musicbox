@@ -17,7 +17,7 @@ h2. howto
 
 there is a file @client.rb@ on this project that will play a track I like on the CLI
 
-mplayer (@brew install mplayer@, you are using homebrew on OS X, right?) is required if you want to directly hear the track on the console. otherwise, you must copy the provided URL to a player like VLC or similar.
+mplayer (@brew install mplayer@, you are using homebrew on OS X, right?) is required if you want to directly ear the track on the console. otherwise, you must copy the provided URL to a player like VLC or similar.
 
 <pre><code>
 $ bundle (first time only, installs dependencies)
